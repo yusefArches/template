@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Rufina:wght@700&display=swap" rel="stylesheet"> 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">				
+
+    <!-- Slick Slider CSS -->
+	  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="brand-slider.css">
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <header class="">
+          <div class="header-img d-flex flex-column justify-content-center align-items-center">
+            
+                <h1 class="headline">get your desired car in resonable price</h1>
+                <p class="head-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <button type="button" class="btn btn-lg btn-block btn-primary">Contact Us</button>
+            
+        </div>
+  <!---------------NavBar---------------->
+        <nav class="navbar navbar-dark navbar-expand-lg fixed-top ">
+            <div class="container">
+              <a class="navbar-brand" href="#">carvilla</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto justify-content-between w-30 ">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">featured cars</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">new cars</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">brands</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+
+    <script>
+
+      const navEL = document.querySelector('.navbar');
+      window.addEventListener('scroll', 
+      function changeNavBack() {
+          if (window.scrollY >= 56) {
+              navEL.classList.add('navbar-scroll');
+          } if(window.scrollY < 56 ) {
+              navEL.classList.remove('navbar-scroll');
+          }
+      })
+
+  </script>
+
+
+<!-- ---------Select Car Form-------------->
+<main>
+    <div class="modal-body">
+      <form action="#" >
+
+        <div class="row">
+          <div class="col-md-10">
+            <div class="row ">
+              <div class="col-md-4">
+                <label for="Year">Select Year</label>
+                <div class="form-floating">
+                  <select class="form-select" id="Year">
+                    <option>2018</option>
+                    <option>2017</option>
+                    <option>2016</option>
+                  </select>                  
+                </div>
+              </div>
+              <div class="col-md-4">
+                <label for="Year">Select Make</label>
+                <div class="form-floating">
+                  <select class="form-select" id="Year">
+                    <option>2018</option>
+                    <option>2017</option>
+                    <option>2016</option>
+                  </select>                  
+                </div>
+              </div>
+              <div class="col-md-4">
+                <label for="Year">Select Model</label>
+                <div class="form-floating">
+                  <select class="form-select" id="Year">
+                    <option>2018</option>
+                    <option>2017</option>
+                    <option>2016</option>
+                  </select>                  
+                </div>
+              </div>
+              <div class="devider"></div>
+              </div>
+              <div class="row">
+              <div class="col-md-4">
+                <label for="Year">Body Style</label>
+                <div class="form-floating">
+                  <select class="form-select" id="Year">
+                    <option>2018</option>
+                    <option>2017</option>
+                    <option>2016</option>
+                  </select>                  
+                </div>
+              </div>
+              <div class="col-md-4">
+                <label for="Year">Car Condition</label>
+                <div class="form-floating">
+                  <select class="form-select" id="Year">
+                    <option>2018</option>
+                    <option>2017</option>
+                    <option>2016</option>
+                  </select>                  
+                </div>
+              </div>
+              <div class="col-md-4">
+                <label for="Year">Select Price</label>
+                <div class="form-floating">
+                  <select class="form-select" id="Year">
+                    <option>2018</option>
+                    <option>2017</option>
+                    <option>2016</option>
+                  </select>                  
+                </div>
+              </div>
+              
+            </div> 
+          </div>
+          <div class="col-md-2 d-flex flex-column justify-content-center align-items-center">
+            
+            <button type="button" class="btn btn-lg btn-primary">Contact Us</button>
+
+          </div>
+        </div>
+        
+
+      </form>
+
+    </div>
+
+    <!-- ---------Info Cards-------------->
+ <div class="cards container ">
+ <div class="row row-cols-1 row-cols-md-3 g-4 ">
+  <div class="col ">
+    <div class="card h-100 card-items-center card-hover">
+      
+      <div class="card-body ">
+        <img src="icons8-car-64.png" class="card-img-top" alt="...">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 card-items-center card-hover">
+      
+      <div class="card-body ">
+        <img src="icons8-car-repair-64.png" class="card-img-top" alt="...">
+        <h5 class="card-title">unlimited repair warrenty</h5>
+        <p class="card-text">This is a short card.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 card-items-center card-hover">
+      <div class="card-body ">
+        <img src="icons8-vehicle-insurance-64.png" class="card-img-top" alt="...">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- ---------Newest product carousel-------------->
+
+
+<section class="newest-cars">
+
+<div class="container newest-product">
+
+  <div class="section-header d-grid justify-content-center">
+    <p>checkout <span>the</span> latest cars</p>
+    <h2>Newest Cars</h2>
+  </div>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-theme="dark">
+
+    <div class="carousel-indicators">
+      <button type="button"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-md-7">
+            <img src="./new-cars-model/ncm1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="col-md-5">
+            <h2><a href="#">chevrolet camaro <span> za100</span></a></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos porro repellat, similique nihil nulla quia? Aliquid, alias facere. Molestias illum voluptas amet corporis numquam minima quasi possimus eligendi mollitia ad incidunt repellat ipsum facilis repellendus sequi pariatur cum doloribus, nostrum accusamus dolore rerum sed dignissimos quia officia. Ad, debitis consequatur!</p>
+            <button type="button" class="btn btn-lg btn-primary">Contact Us</button>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <div class="row g-4">
+          <div class="col-md-7">
+            <img src="./new-cars-model/ncm2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="col-md-5">
+            <h2><a href="#">chevrolet camaro <span> za100</span></a></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos porro repellat, similique nihil nulla quia? Aliquid, alias facere. Molestias illum voluptas amet corporis numquam minima quasi possimus eligendi mollitia ad incidunt repellat ipsum facilis repellendus sequi pariatur cum doloribus, nostrum accusamus dolore rerum sed dignissimos quia officia. Ad, debitis consequatur!</p>
+            <button type="button" class="btn btn-lg btn-primary">Contact Us</button>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <div class="row g-4">
+          <div class="col-md-7">
+            <img src="./new-cars-model/ncm3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="col-md-5">
+            <h2><a href="#">chevrolet camaro <span> za100</span></a></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos porro repellat, similique nihil nulla quia? Aliquid, alias facere. Molestias illum voluptas amet corporis numquam minima quasi possimus eligendi mollitia ad incidunt repellat ipsum facilis repellendus sequi pariatur cum doloribus, nostrum accusamus dolore rerum sed dignissimos quia officia. Ad, debitis consequatur!</p>
+            <button type="button" class="btn btn-lg btn-primary">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+</div>
+
+</section>
+<!-- ------------------------------------------------->
+
+<section class="feature-cars">
+
+  <div class="container-sm feature-product">
+  
+    <div class="section-header d-grid justify-content-center">
+      <p>checkout <span>the</span> featured cars</p>
+      <h2>Featured Cars</h2>
+    </div>
+
+    
+    <div class="row">
+
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <div class="featured-cars-img">
+            <img class="card-img-top" src="./featured-cars/fc1.png" alt="">
+          </div>
+          <div class="card-body">
+            <p class="card-text">model: 2017 3100 mi 240HP automatic</p>
+              <h2><a href="#">BMW 6-series gran coupe</a></h2>
+              <h3>$89,395</h3>
+              <p>
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
+              </p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <div class="featured-cars-img">
+            <img class="card-img-top" src="./featured-cars/fc2.png" alt="">
+          </div>
+          <div class="card-body">
+            <p class="card-text">model: 2017 3100 mi 240HP automatic</p>
+            
+              <h2><a href="#">chevrolet camaro wmv20</a></h2>
+              <h3>$66,575</h3>
+              <p>
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
+              </p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <div class="featured-cars-img">
+            <img class="card-img-top" src="./featured-cars/fc3.png" alt="">
+          </div>
+          <div class="card-body">
+            <p class="card-text">model: 2017 3100 mi 240HP automatic</p>
+            
+              <h2><a href="#">lamborghini v520</a></h2>
+              <h3>$125,250</h3>
+              <p>
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
+              </p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <div class="featured-cars-img">
+            <img class="card-img-top" src="./featured-cars/fc4.png" alt="">
+          </div>
+          <div class="card-body">
+            <p class="card-text">model: 2017 3100 mi 240HP automatic</p>
+            
+              <h2><a href="#">audi a3 sedan</a></h2>
+              <h3>$95,500</h3>
+              <p>
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
+              </p>
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <div class="featured-cars-img">
+            <img class="card-img-top" src="./featured-cars/fc5.png" alt="">
+          </div>
+          <div class="card-body">
+            <p class="card-text">model: 2017 3100 mi 240HP automatic</p>
+            
+              <h2><a href="#">infiniti z5</a></h2>
+              <h3>$36,850</h3>
+              <p>
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
+              </p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <div class="featured-cars-img">
+            <img class="card-img-top" src="./featured-cars/fc6.png" alt="">
+          </div>
+          <div class="card-body">
+            <p class="card-text">model: 2017 3100 mi 240HP automatic</p>
+            
+              <h2><a href="#">porsche 718 cayman</a></h2>
+              <h3>$48,500</h3>
+              <p>
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
+              </p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <div class="featured-cars-img">
+            <img class="card-img-top" src="./featured-cars/fc7.png" alt="">
+          </div>
+          <div class="card-body">
+            <p class="card-text">model: 2017 3100 mi 240HP automatic</p>
+            
+              <h2><a href="#">bmw 8-series coupe</a></h2>
+              <h3>$56,000</h3>
+              <p>
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
+              </p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <div class="featured-cars-img">
+            <img class="card-img-top" src="./featured-cars/fc8.png" alt="">
+          </div>
+          <div class="card-body">
+            <p class="card-text">model: 2017 3100 mi 240HP automatic</p>
+            
+              <h2><a href="#">BMW xseries-6</a></h2>
+              <h3>$75,800</h3>
+              <p>
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
+              </p>
+            
+          </div>
+        </div>
+      </div>
+    
+    </div>
+
+  </div>
+  </section>
+
+ <!-- --------------testomnial------------------------->
+
+  <section class="newest-cars-testomnial">
+
+
+    <div class="section-header d-grid justify-content-center">
+      <h2>What Our Clients Say</h2>
+    </div>
+
+
+    <div class="cards container ">
+      <div class="row row-cols-1 row-cols-md-3 g-4 ">
+       <div class="col ">
+         <div class="card h-100 card-items-center card-hover">
+           
+           <div class="card-body ">
+            <img src="./clients/c1.png" class="card-img-top kkk" alt="...">
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur assumenda perferendis enim deserunt, optio molestiae sit asperiores natus ipsa autem.</p>
+            <div class="testimonial-person">
+             <h2><a href="#">tomas lili</a></h2>
+             <h6 class="card-title">new york</h4>
+           </div>
+           </div>
+         </div>
+       </div>
+       <div class="col">
+         <div class="card h-100 card-items-center card-hover">
+           
+           <div class="card-body ">
+              <img src="./clients/c2.png" class="card-img-top kkk" alt="...">
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur assumenda perferendis enim deserunt, optio molestiae sit asperiores natus ipsa autem.</p>
+              <div class="testimonial-person">
+               <h2><a href="#">romi rain</a></h2>
+               <h6 class="card-title">london</h4>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="col">
+         <div class="card h-100 card-items-center card-hover">
+           
+           <div class="card-body">
+            <img src="./clients/c3.png" class="card-img-top kkk" alt="...">
+             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur assumenda perferendis enim deserunt, optio molestiae sit asperiores natus ipsa autem.</p>
+             <div class="testimonial-person">
+              <h2><a href="#">john doe</a></h2>
+              <h6 class="card-title">washington</h4>
+            </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     </div>
+
+  </section>
+
+
+  <!--<section>
+  <div class="slider">
+    <div class="slide-track">
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+      </div>
+    </div>
+  </div>
+</section>-->
+
+<section class="brand">
+  <div class="container">
+<div class="row slide">
+  <div class="container">
+    <section class="customer-logos slider" data-arrows="true">
+    <div class="slide"><img src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image1.png"></div>
+    <div class="slide"><img src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image2.png"></div>
+    <div class="slide"><img src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image3.png"></div>
+    <div class="slide"><img src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image4.png"></div>
+    <div class="slide"><img src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image5.png"></div>
+    <div class="slide"><img src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image6.png"></div>
+    <div class="slide"><img src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image7.png"></div>
+    <div class="slide"><img src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image8.png"></div>
+    </section>
+  </div>
+  </div>
+  
+ <script type="text/javascript">
+  $(document).ready(function() {
+     $('.customer-logos').slick({
+       slidesToShow: 6,
+      slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    arrows: true,
+    dots: false,
+    pauseOnHover: false,
+    responsive: [{
+    breakpoint: 768,
+    settings: {
+      slidesToShow: 4
+    }
+    }, {
+    breakpoint: 520,
+    settings: {
+      slidesToShow: 3
+    }
+    }]
+  });
+  });
+   </script>
+</div>
+  
+</section>
+
+</main>
+
+   
+
+
+</body>
+</html>
