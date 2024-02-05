@@ -1,4 +1,3 @@
-
 let Marks=prompt("Enter all Marks, Seperated by Space");
 
 let array= Marks.split(" ");
