@@ -1,0 +1,18 @@
+Exercice 1 :
+
+Écrire un programme  qui demande deux nombres m et n à l’utilisateur et l’informe ensuite si le produit de ces deux nombres est positif ou négatif. 
+On inclut dans le programme le cas où le produit peut être nul.
+
+Exercice 2 :
+
+Écrire un programme permettant de saisir 10 notes et qui affiche la moyenne de ces notes.
+
+Exercice 3 :
+
+Écrire un programme qui permet de calculer le nombre de chiffres d'un entier N saisi par l'utilisateur. 
+(Exemple  N = 10843 le nombre de chiffres est : 5).
+
+Exercice 4 :
+
+Écrire un programme  qui permet d'échanger les valeurs de deux entiers A et B  saisis par l'utilisateur, 
+mais à condition d’utiliser seulement deux variables A et B.  ( sans d'utiliser  la troisième variable auxiliaire ).
