@@ -1,3 +1,4 @@
+
 let x=prompt("Enter first Number");
 let y=prompt("Enter Seconde Number");
 

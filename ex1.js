@@ -1,4 +1,3 @@
-
 let x = parseFloat(prompt("Enter First Number"));
 let y = parseFloat(prompt("Enter Seconde Number"));
 
