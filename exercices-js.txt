@@ -16,3 +16,19 @@ Exercice 4 :
 
 Écrire un programme  qui permet d'échanger les valeurs de deux entiers A et B  saisis par l'utilisateur, 
 mais à condition d’utiliser seulement deux variables A et B.  ( sans d'utiliser  la troisième variable auxiliaire ).
+
+Exercice 5 :
+
+Écrire un programme permettant de saisir 10 entiers et qui affiche le maximum de ces entiers. 
+
+Exercice 6 :
+
+Écrire un programme permettant de calculer le factoriel d'un entier saisi par l'utilisateur, (exemple factoriel 5 = 1 * 2 * 3 * 4 * 5).
+
+Exercice 7 :
+
+Écrire un programme permettant d'afficher les nombres paires compris entre 0 et N, où N saisi par l'utilisateur.
+
+Exercice 8 :
+
+Écrire un programme qui permet d'inverser les chiffres d'un entier N saisi par l'utilisateur. (par exemple N=35672 le résultat affiché doit être 27653 ).
