@@ -19,6 +19,6 @@ x = x + y;
 
 y = x - y;
 
-x = x - b;
+x = x - y;
 
 console.log(x, y);

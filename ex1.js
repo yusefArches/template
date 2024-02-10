@@ -10,8 +10,6 @@ if(x*y < 0){
 	console.log("Negative")
 }
 
-// le cas ou le produit est null ?
-
 if(isNaN(x) || isNaN(y)){ 
 console.log("Enter a Number")
 }
