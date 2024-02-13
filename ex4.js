@@ -13,7 +13,8 @@ console.log(x,y);
 
 // correction execrice 4 :
 
-let x = 4, y = 5;
+x = 4; 
+y = 5;
 
 x = x + y;
 
